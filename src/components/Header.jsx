@@ -73,7 +73,7 @@ const Header = () => {
             {navItems.map((itm, idx) => (
                 <a key={idx} href={itm.link} className="border-b border-[#0000003b] pb-[12px] last:border-0">{itm.name}</a>
             ))}
-            <button className="border-1 border-[#0000005d] bg-primary-gray py-[5px] px-[10px] text-[19px] font-[500] rounded-[25px] cursor-pointer mt-[10px]">Создать свой дизайн</button>
+            <button className="border-1 border-[#0000005d] bg-primary-gray py-[5px] px-[10px] text-[16px] font-[500] rounded-[25px] cursor-pointer mt-[10px]">Создать свой дизайн</button>
         </nav>
       </div>
     </div>
